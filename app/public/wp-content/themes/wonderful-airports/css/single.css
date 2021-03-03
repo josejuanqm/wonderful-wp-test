@@ -1,0 +1,42 @@
+#overlay-single {
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background: rgba(0,0,0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#overlay-single .url-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0, 0.3);
+  border-radius: 15px;
+  min-width: 100%;
+  min-height: 50px;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+}
+
+#overlay-single .url-container span {
+  background-color: white;
+  padding: 12px 8px;
+  margin-left: 12px;
+  border-radius: 12px;
+  color: black;
+}
+
+#overlay-single .url-container span button {
+  background-color: white;
+  margin-left: 12px;
+  color: black;
+  border: none;
+  cursor: pointer;
+}

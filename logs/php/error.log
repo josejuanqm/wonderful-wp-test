@@ -1,0 +1,204 @@
+[28-Feb-2021 21:22:18 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_user_request(), 0 passed in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/index.php on line 7 and exactly 1 expected in /Users/josequintero/Local Sites/wonderful/app/public/wp-includes/user.php:4108
+Stack trace:
+#0 /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/index.php(7): wp_get_user_request()
+#1 /Users/josequintero/Local Sites/wonderful/app/public/wp-includes/template-loader.php(106): include('/Users/josequin...')
+#2 /Users/josequintero/Local Sites/wonderful/app/public/wp-blog-header.php(19): require_once('/Users/josequin...')
+#3 /Users/josequintero/Local Sites/wonderful/app/public/index.php(17): require('/Users/josequin...')
+#4 {main}
+  thrown in /Users/josequintero/Local Sites/wonderful/app/public/wp-includes/user.php on line 4108
+[28-Feb-2021 21:22:46 UTC] PHP Recoverable fatal error:  Object of class WP_User could not be converted to string in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/index.php on line 7
+[28-Feb-2021 21:22:46 UTC] PHP Stack trace:
+[28-Feb-2021 21:22:46 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/index.php:0
+[28-Feb-2021 21:22:46 UTC] PHP   2. require() /Users/josequintero/Local Sites/wonderful/app/public/index.php:17
+[28-Feb-2021 21:22:46 UTC] PHP   3. require_once() /Users/josequintero/Local Sites/wonderful/app/public/wp-blog-header.php:19
+[28-Feb-2021 21:22:46 UTC] PHP   4. include() /Users/josequintero/Local Sites/wonderful/app/public/wp-includes/template-loader.php:106
+[02-Mar-2021 14:01:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php:3
+Stack trace:
+#0 {main}
+  thrown in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php on line 3
+[02-Mar-2021 14:04:35 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php on line 5
+[02-Mar-2021 14:04:35 UTC] PHP Stack trace:
+[02-Mar-2021 14:04:35 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php:0
+[02-Mar-2021 14:04:35 UTC] PHP Warning:  require_once(ABSPATHwp-admin/includes/file.php): failed to open stream: No such file or directory in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php on line 5
+[02-Mar-2021 14:04:35 UTC] PHP Stack trace:
+[02-Mar-2021 14:04:35 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php:0
+[02-Mar-2021 14:04:35 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHwp-admin/includes/file.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php on line 5
+[02-Mar-2021 14:04:35 UTC] PHP Stack trace:
+[02-Mar-2021 14:04:35 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php:0
+[02-Mar-2021 14:06:07 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /Users/josequintero/Local Sites/wonderful/app/public/upload.php on line 5
+[02-Mar-2021 14:06:07 UTC] PHP Stack trace:
+[02-Mar-2021 14:06:07 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/upload.php:0
+[02-Mar-2021 14:06:07 UTC] PHP Warning:  require_once(ABSPATHwp-admin/includes/file.php): failed to open stream: No such file or directory in /Users/josequintero/Local Sites/wonderful/app/public/upload.php on line 5
+[02-Mar-2021 14:06:07 UTC] PHP Stack trace:
+[02-Mar-2021 14:06:07 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/upload.php:0
+[02-Mar-2021 14:06:07 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHwp-admin/includes/file.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/josequintero/Local Sites/wonderful/app/public/upload.php on line 5
+[02-Mar-2021 14:06:07 UTC] PHP Stack trace:
+[02-Mar-2021 14:06:07 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/upload.php:0
+[02-Mar-2021 14:07:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/josequintero/Local Sites/wonderful/app/public/wp-admin/includes/file.php:16
+Stack trace:
+#0 /Users/josequintero/Local Sites/wonderful/app/public/upload.php(9): require_once()
+#1 {main}
+  thrown in /Users/josequintero/Local Sites/wonderful/app/public/wp-admin/includes/file.php on line 16
+[02-Mar-2021 14:53:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/josequintero/Local Sites/wonderful/app/public/wp-admin/includes/file.php:16
+Stack trace:
+#0 /Users/josequintero/Local Sites/wonderful/app/public/upload.php(9): require_once()
+#1 {main}
+  thrown in /Users/josequintero/Local Sites/wonderful/app/public/wp-admin/includes/file.php on line 16
+[02-Mar-2021 14:55:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/josequintero/Local Sites/wonderful/app/public/wp-admin/includes/file.php:16
+Stack trace:
+#0 /Users/josequintero/Local Sites/wonderful/app/public/upload.php(9): require_once()
+#1 {main}
+  thrown in /Users/josequintero/Local Sites/wonderful/app/public/wp-admin/includes/file.php on line 16
+[02-Mar-2021 15:05:12 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-Mar-2021 15:06:41 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-Mar-2021 15:09:59 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-Mar-2021 15:10:38 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-Mar-2021 15:11:15 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-Mar-2021 15:11:49 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-Mar-2021 15:13:15 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-Mar-2021 15:13:29 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-Mar-2021 15:14:30 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-Mar-2021 15:14:45 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-Mar-2021 15:15:19 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-Mar-2021 15:15:48 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-Mar-2021 15:16:23 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-Mar-2021 15:17:25 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-Mar-2021 15:20:47 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-Mar-2021 15:21:07 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-Mar-2021 15:21:07 UTC] PHP Warning:  Illegal string offset 'csv' in /Users/josequintero/Local Sites/wonderful/app/public/upload.php on line 18
+[02-Mar-2021 15:21:07 UTC] PHP Stack trace:
+[02-Mar-2021 15:21:07 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/upload.php:0
+[02-Mar-2021 15:21:52 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-Mar-2021 17:28:03 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/josequintero/Local Sites/wonderful/app/public/upload.php on line 13
+[02-Mar-2021 17:29:30 UTC] PHP Warning:  Illegal string offset 'tmp_name' in /Users/josequintero/Local Sites/wonderful/app/public/wp-admin/includes/file.php on line 823
+[02-Mar-2021 17:29:30 UTC] PHP Stack trace:
+[02-Mar-2021 17:29:30 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/upload.php:0
+[02-Mar-2021 17:29:30 UTC] PHP   2. wp_handle_upload() /Users/josequintero/Local Sites/wonderful/app/public/upload.php:14
+[02-Mar-2021 17:29:30 UTC] PHP   3. _wp_handle_upload() /Users/josequintero/Local Sites/wonderful/app/public/wp-admin/includes/file.php:987
+[02-Mar-2021 17:29:39 UTC] PHP Warning:  Illegal string offset 'tmp_name' in /Users/josequintero/Local Sites/wonderful/app/public/wp-admin/includes/file.php on line 823
+[02-Mar-2021 17:29:39 UTC] PHP Stack trace:
+[02-Mar-2021 17:29:39 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/upload.php:0
+[02-Mar-2021 17:29:39 UTC] PHP   2. wp_handle_upload() /Users/josequintero/Local Sites/wonderful/app/public/upload.php:14
+[02-Mar-2021 17:29:39 UTC] PHP   3. _wp_handle_upload() /Users/josequintero/Local Sites/wonderful/app/public/wp-admin/includes/file.php:987
+[02-Mar-2021 17:29:52 UTC] PHP Warning:  Illegal string offset 'tmp_name' in /Users/josequintero/Local Sites/wonderful/app/public/wp-admin/includes/file.php on line 823
+[02-Mar-2021 17:29:52 UTC] PHP Stack trace:
+[02-Mar-2021 17:29:52 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/upload.php:0
+[02-Mar-2021 17:29:52 UTC] PHP   2. wp_handle_upload() /Users/josequintero/Local Sites/wonderful/app/public/upload.php:14
+[02-Mar-2021 17:29:52 UTC] PHP   3. _wp_handle_upload() /Users/josequintero/Local Sites/wonderful/app/public/wp-admin/includes/file.php:987
+[02-Mar-2021 17:30:58 UTC] PHP Warning:  Illegal string offset 'tmp_name' in /Users/josequintero/Local Sites/wonderful/app/public/wp-admin/includes/file.php on line 823
+[02-Mar-2021 17:30:58 UTC] PHP Stack trace:
+[02-Mar-2021 17:30:58 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/upload.php:0
+[02-Mar-2021 17:30:58 UTC] PHP   2. wp_handle_upload() /Users/josequintero/Local Sites/wonderful/app/public/upload.php:15
+[02-Mar-2021 17:30:58 UTC] PHP   3. _wp_handle_upload() /Users/josequintero/Local Sites/wonderful/app/public/wp-admin/includes/file.php:987
+[02-Mar-2021 17:31:11 UTC] PHP Warning:  Illegal string offset 'tmp_name' in /Users/josequintero/Local Sites/wonderful/app/public/wp-admin/includes/file.php on line 823
+[02-Mar-2021 17:31:11 UTC] PHP Stack trace:
+[02-Mar-2021 17:31:11 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/upload.php:0
+[02-Mar-2021 17:31:11 UTC] PHP   2. wp_handle_upload() /Users/josequintero/Local Sites/wonderful/app/public/upload.php:15
+[02-Mar-2021 17:31:11 UTC] PHP   3. _wp_handle_upload() /Users/josequintero/Local Sites/wonderful/app/public/wp-admin/includes/file.php:987
+[02-Mar-2021 17:31:20 UTC] PHP Warning:  Illegal string offset 'tmp_name' in /Users/josequintero/Local Sites/wonderful/app/public/wp-admin/includes/file.php on line 823
+[02-Mar-2021 17:31:20 UTC] PHP Stack trace:
+[02-Mar-2021 17:31:20 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/upload.php:0
+[02-Mar-2021 17:31:20 UTC] PHP   2. wp_handle_upload() /Users/josequintero/Local Sites/wonderful/app/public/upload.php:14
+[02-Mar-2021 17:31:20 UTC] PHP   3. _wp_handle_upload() /Users/josequintero/Local Sites/wonderful/app/public/wp-admin/includes/file.php:987
+[02-Mar-2021 17:32:08 UTC] PHP Warning:  Illegal string offset 'tmp_name' in /Users/josequintero/Local Sites/wonderful/app/public/wp-admin/includes/file.php on line 823
+[02-Mar-2021 17:32:08 UTC] PHP Stack trace:
+[02-Mar-2021 17:32:08 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/upload.php:0
+[02-Mar-2021 17:32:08 UTC] PHP   2. wp_handle_upload() /Users/josequintero/Local Sites/wonderful/app/public/upload.php:14
+[02-Mar-2021 17:32:08 UTC] PHP   3. _wp_handle_upload() /Users/josequintero/Local Sites/wonderful/app/public/wp-admin/includes/file.php:987
+[02-Mar-2021 18:51:55 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function read(), 0 passed in /Users/josequintero/Local Sites/wonderful/app/public/upload.php on line 73 and exactly 1 expected in /Users/josequintero/Local Sites/wonderful/app/public/upload.php:2
+Stack trace:
+#0 /Users/josequintero/Local Sites/wonderful/app/public/upload.php(73): read()
+#1 {main}
+  thrown in /Users/josequintero/Local Sites/wonderful/app/public/upload.php on line 2
+[02-Mar-2021 18:52:09 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/josequintero/Local Sites/wonderful/app/public/upload.php on line 82
+[02-Mar-2021 18:52:11 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/josequintero/Local Sites/wonderful/app/public/upload.php on line 82
+[02-Mar-2021 18:52:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function read(), 0 passed in /Users/josequintero/Local Sites/wonderful/app/public/upload.php on line 73 and exactly 1 expected in /Users/josequintero/Local Sites/wonderful/app/public/upload.php:2
+Stack trace:
+#0 /Users/josequintero/Local Sites/wonderful/app/public/upload.php(73): read()
+#1 {main}
+  thrown in /Users/josequintero/Local Sites/wonderful/app/public/upload.php on line 2
+[02-Mar-2021 18:52:17 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function read(), 0 passed in /Users/josequintero/Local Sites/wonderful/app/public/upload.php on line 73 and exactly 1 expected in /Users/josequintero/Local Sites/wonderful/app/public/upload.php:2
+Stack trace:
+#0 /Users/josequintero/Local Sites/wonderful/app/public/upload.php(73): read()
+#1 {main}
+  thrown in /Users/josequintero/Local Sites/wonderful/app/public/upload.php on line 2
+[02-Mar-2021 19:11:36 UTC] PHP Warning:  require_once(./wp-load.php): failed to open stream: No such file or directory in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php on line 52
+[02-Mar-2021 19:11:36 UTC] PHP Stack trace:
+[02-Mar-2021 19:11:36 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php:0
+[02-Mar-2021 19:11:36 UTC] PHP Fatal error:  require_once(): Failed opening required './wp-load.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php on line 52
+[02-Mar-2021 19:11:36 UTC] PHP Stack trace:
+[02-Mar-2021 19:11:36 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php:0
+[02-Mar-2021 19:11:44 UTC] PHP Warning:  require_once(./wp-load.php): failed to open stream: No such file or directory in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php on line 52
+[02-Mar-2021 19:11:44 UTC] PHP Stack trace:
+[02-Mar-2021 19:11:44 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php:0
+[02-Mar-2021 19:11:44 UTC] PHP Fatal error:  require_once(): Failed opening required './wp-load.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php on line 52
+[02-Mar-2021 19:11:44 UTC] PHP Stack trace:
+[02-Mar-2021 19:11:44 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php:0
+[02-Mar-2021 19:12:03 UTC] PHP Warning:  require_once(/wp-load.php): failed to open stream: No such file or directory in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php on line 52
+[02-Mar-2021 19:12:03 UTC] PHP Stack trace:
+[02-Mar-2021 19:12:03 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php:0
+[02-Mar-2021 19:12:03 UTC] PHP Fatal error:  require_once(): Failed opening required '/wp-load.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php on line 52
+[02-Mar-2021 19:12:03 UTC] PHP Stack trace:
+[02-Mar-2021 19:12:03 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php:0
+[02-Mar-2021 19:12:23 UTC] PHP Warning:  require_once(../../wp-load.php): failed to open stream: No such file or directory in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php on line 52
+[02-Mar-2021 19:12:23 UTC] PHP Stack trace:
+[02-Mar-2021 19:12:23 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php:0
+[02-Mar-2021 19:12:23 UTC] PHP Fatal error:  require_once(): Failed opening required '../../wp-load.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php on line 52
+[02-Mar-2021 19:12:23 UTC] PHP Stack trace:
+[02-Mar-2021 19:12:23 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php:0
+[02-Mar-2021 19:17:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function custom_file_name() in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php:83
+Stack trace:
+#0 {main}
+  thrown in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php on line 83
+[02-Mar-2021 19:18:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function custom_file_name() in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php:87
+Stack trace:
+#0 {main}
+  thrown in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php on line 87
+[02-Mar-2021 19:19:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function custom_file_name() in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php:87
+Stack trace:
+#0 {main}
+  thrown in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php on line 87
+[02-Mar-2021 19:20:13 UTC] PHP Fatal error:  Cannot redeclare custom_filename() (previously declared in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php:21) in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/functions.php on line 13
+[02-Mar-2021 19:20:13 UTC] PHP Stack trace:
+[02-Mar-2021 19:20:13 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php:0
+[02-Mar-2021 19:20:13 UTC] PHP   2. require_once() /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php:63
+[02-Mar-2021 19:20:13 UTC] PHP   3. require_once() /Users/josequintero/Local Sites/wonderful/app/public/wp-load.php:37
+[02-Mar-2021 19:20:13 UTC] PHP   4. require_once() /Users/josequintero/Local Sites/wonderful/app/public/wp-config.php:77
+[02-Mar-2021 19:20:30 UTC] PHP Fatal error:  Cannot redeclare custom_filename() (previously declared in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php:21) in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/functions.php on line 22
+[02-Mar-2021 19:20:30 UTC] PHP Stack trace:
+[02-Mar-2021 19:20:30 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php:0
+[02-Mar-2021 19:20:30 UTC] PHP   2. require_once() /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php:63
+[02-Mar-2021 19:20:30 UTC] PHP   3. require_once() /Users/josequintero/Local Sites/wonderful/app/public/wp-load.php:37
+[02-Mar-2021 19:20:30 UTC] PHP   4. require_once() /Users/josequintero/Local Sites/wonderful/app/public/wp-config.php:77
+[03-Mar-2021 02:02:40 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function create_params_airport(), 1 passed in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php on line 107 and exactly 2 expected in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php:32
+Stack trace:
+#0 /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php(107): create_params_airport(Array)
+#1 {main}
+  thrown in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php on line 32
+[03-Mar-2021 02:05:57 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php on line 46
+[03-Mar-2021 02:15:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field_reference() in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php:103
+Stack trace:
+#0 {main}
+  thrown in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php on line 103
+[03-Mar-2021 02:25:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect_post() in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php:89
+Stack trace:
+#0 {main}
+  thrown in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/upload.php on line 89
+[03-Mar-2021 02:45:28 UTC] PHP Warning:  Illegal string offset 'url' in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/single.php on line 7
+[03-Mar-2021 02:45:28 UTC] PHP Stack trace:
+[03-Mar-2021 02:45:28 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/index.php:0
+[03-Mar-2021 02:45:28 UTC] PHP   2. require() /Users/josequintero/Local Sites/wonderful/app/public/index.php:17
+[03-Mar-2021 02:45:28 UTC] PHP   3. require_once() /Users/josequintero/Local Sites/wonderful/app/public/wp-blog-header.php:19
+[03-Mar-2021 02:45:28 UTC] PHP   4. include() /Users/josequintero/Local Sites/wonderful/app/public/wp-includes/template-loader.php:106
+[03-Mar-2021 02:45:28 UTC] PHP Warning:  Illegal string offset 'filename' in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/single.php on line 7
+[03-Mar-2021 02:45:28 UTC] PHP Stack trace:
+[03-Mar-2021 02:45:28 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/index.php:0
+[03-Mar-2021 02:45:28 UTC] PHP   2. require() /Users/josequintero/Local Sites/wonderful/app/public/index.php:17
+[03-Mar-2021 02:45:28 UTC] PHP   3. require_once() /Users/josequintero/Local Sites/wonderful/app/public/wp-blog-header.php:19
+[03-Mar-2021 02:45:28 UTC] PHP   4. include() /Users/josequintero/Local Sites/wonderful/app/public/wp-includes/template-loader.php:106
+[03-Mar-2021 02:46:01 UTC] PHP Warning:  Illegal string offset 'url' in /Users/josequintero/Local Sites/wonderful/app/public/wp-content/themes/wonderful-airports/single.php on line 7
+[03-Mar-2021 02:46:01 UTC] PHP Stack trace:
+[03-Mar-2021 02:46:01 UTC] PHP   1. {main}() /Users/josequintero/Local Sites/wonderful/app/public/index.php:0
+[03-Mar-2021 02:46:01 UTC] PHP   2. require() /Users/josequintero/Local Sites/wonderful/app/public/index.php:17
+[03-Mar-2021 02:46:01 UTC] PHP   3. require_once() /Users/josequintero/Local Sites/wonderful/app/public/wp-blog-header.php:19
+[03-Mar-2021 02:46:01 UTC] PHP   4. include() /Users/josequintero/Local Sites/wonderful/app/public/wp-includes/template-loader.php:106
